@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Open+Sans:wght@600&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+
+}
+
+.container{
+  border-radius: 5px;
+  background-color: #fff;
+  width: 400px;
+}
+
+h2{
+  font-family: 'Open Sans', 'sans-serif';
+  text-align: center;
+  margin: 20px 0 20px;
+}
+
+.span1{
+  background-color: #fff;
+  font-style: italic;
+  font-size: 25px;
+  
+}
+
+
+#ngnUnit,#curUnit{
+  border:0;
+  background: transparent;
+  font-size: 30px;
+  text-align: right;
+}
